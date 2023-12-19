@@ -1,0 +1,123 @@
+img {
+    width: 250px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+
+.bg {
+    height: 100vh;
+    background-color: rgb(246, 179, 188);
+    position: relative;
+}
+.container {
+    width: 600px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p {
+    font-size: 15px;
+    text-align: center;
+}
+.chao {
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+.ten {
+    font-size: 20px;
+    color: rgb(249, 77, 140);
+    font-weight: bold;
+}
+
+.nd {
+    color: rgb(77, 77, 77);
+    font-style: oblique;
+    text-align: center;
+    margin: 0% auto;
+    font-size: small;
+    padding-top: 10px;
+}
+.dathangqua {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 16px;
+}
+.hinhthuc {
+    color: rgb(252, 110, 110);
+    font: 700 18px/25px SFD;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0% auto;
+}
+.icon {
+    color: rgb(252, 110, 110);
+    display: flex;
+    font: 700 18px/25px SFD;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0% auto;
+}
+.tt {
+    margin-right: 30px;
+}
+.ig {
+    margin-right: 30px;
+}
+.sp {
+    margin-right: 30px;
+}
+.lienhe {
+    color: rgb(42, 41, 41);
+    font: 700 18px/25px SFD;
+    display: flex;
+    justify-content: center; /* Add this line */
+    text-align: center; /* You can remove this line */
+    margin: 0% auto;
+}
+.dt {
+    margin-right: 30px;
+    color: rgb(73, 73, 73);
+    font-style: oblique;
+    font-size: smaller;
+}
+.dc {
+    margin-right: 30px;
+    color: rgb(73, 73, 73);
+    font-style: oblique;
+    font-size: smaller;
+}
+.thank {
+    padding-top: 5px;
+    font-size: small;
+    font-style: oblique;
+    color: rgb(217, 139, 139);
+}
+i {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 250px;
+    }
+    img {
+        width: 150px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 450px;
+    }
+}
